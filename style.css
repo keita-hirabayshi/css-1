@@ -1,0 +1,20 @@
+#container {
+  text-align: center;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 40px;
+  margin: 50px 0;
+  font-weight: 600;
+  transition: background-color 0.7s ease 1s,
+              color 0.7s ease 2s;
+  /* transitionは移り変わりを変更するためのプロパティ  第一引数　対象　第二引数　変更プロパティ　第三引数　緩急　第四引数　遅延時間*/
+  
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
